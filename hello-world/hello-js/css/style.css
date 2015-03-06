@@ -1,3 +1,9 @@
 body {
   color: #111;
 }
+
+.alphabet {
+    padding: 5px;
+    background: #ddd;
+    color: #555;
+}
