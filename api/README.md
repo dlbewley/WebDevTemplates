@@ -17,12 +17,12 @@ python
 ### Using the python interpreter create db and add data
 
 ```
->>> from app import db, Tag
->>> db.create_all()
->>> t = Tag('my first tag')
->>> db.session.add(t)
->>> db.session.commit()
->>> exit()
+from app import db, Tag
+db.create_all()
+t = Tag('my first tag')
+db.session.add(t)
+db.session.commit()
+exit()
 ```
 
 ### Run the server
