@@ -1,0 +1,14 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+
+      <h2><a href="" ng-click="flipSort()">Flip It!</a></h2>
+
+      <ul>
+        <li ng-repeat="thing in awesome_things | orderBy: 'name' : awesome_order">
+          <a href="" ng-click="cap(thing)">{{ thing.name }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
